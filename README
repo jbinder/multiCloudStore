@@ -1,0 +1,11 @@
+multiCloudStore
+===============
+
+multiCloudStore is an Android file storage application which uses multiple cloud storage providers for redundancy.
+
+Requirements
+------------
+
+* JDK 6
+* Android SDK r10
+* Maven 2.2.1

@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>multi-cloud-store-parent</artifactId>
+    <groupId>at.ac.tuwien.multicloudstore</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <groupId>at.ac.tuwien.multicloudstore.lib</groupId>
+  <artifactId>multi-cloud-store-lib</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>multi-cloud-store - Storage Library</name>
+  <url>http://maven.apache.org</url>
+  <repositories>
+    <repository>
+      <id>ftp4j-svn-repo</id>
+      <snapshots> <enabled>true</enabled> </snapshots>
+      <name>ftp4j maven repo</name>
+      <url>http://repo.novus.com/releases/</url>
+    </repository>
+    <repository>
+      <id>opencredo-cloud-storage</id>
+      <snapshots> <enabled>true</enabled> </snapshots>
+      <name>OpenCredo Cloud-Storage project</name>
+      <url>http://repo2.maven.org/maven2/org/opencredo/cloud/storage/</url>
+    </repository>
+  </repositories>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.8.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>it.sauronsoftware</groupId>
+      <artifactId>ftp4j</artifactId>
+      <version>1.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.opencredo.cloud.storage</groupId>
+      <artifactId>opencredo-cloud-storage-parent</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>org.opencredo.cloud.storage</groupId>
+      <artifactId>cloud-storage-s3</artifactId>
+      <version>1.1</version>
+    </dependency>
+  </dependencies>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>

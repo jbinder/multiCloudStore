@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello multi-cloud-store!</string>
+    <string name="app_name">multi-cloud-store</string>
+    <string name="service_not_available">Unable to connect to storage server(s), please check your network connection and your storage accounts.</string>
+    <string name="no_files">No files available.</string>
+    <string name="no_memory_card">Memory card is not available or write protected."</string>
+    <string name="server_not_supported">This type of server is not supported.</string>
+    <string name="download">download</string>
+    <string name="upload">upload</string>
+    <string name="delete">delete</string>
+    <string name="remote">Remote</string>
+    <string name="local">Local</string>
+    <string name="accounts">Accounts</string>
+    <string name="confirm_delete">Do you really want to delete this object?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+    <string name="no_accounts">No accounts available. Use the options menu to create some.</string>
+    <string name="new_account">new</string>
+    <string name="edit">edit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">cancel</string>
+    <!-- account_settings_dialog -->
+    <string name="asd_create">Add account</string>
+    <string name="asd_edit">Edit account</string>
+    <string name="asd_address">Address:</string>
+    <string name="asd_address_s3">Conainer:</string>
+    <string name="asd_username">Username:</string>
+    <string name="asd_password">Password:</string>
+    <string name="asd_type">Type:</string>
+    <string-array name="asd_types">
+        <item>FTP</item>
+        <item>Amazon S3</item>
+    </string-array>
+    <string name="asd_enabled">Enabled:</string>
+</resources>
